@@ -42,4 +42,14 @@ git push -u origin master
 
 - `git reset --hard <commit_hash>` supprime complètement les `commits` qui suivent le `commit` spécifié. (Manipulation déconseillée.)
 
+## Déplacer la HEAD
+- `git checkout <commit_hash>` détache la **HEAD** pour la faire pointer sur un commit plutôt qu'une branche.
+
+- `git checkout <branch>` attache la **HEAD** à `master` ou une autre branche.
+
 ## Gérer les branches
+- `git branch <branch_name>` crée une nouvelle branche. Pour aller sur cette branche, il faut y attacher la **HEAD**.
+
+- `git checkout -b <branch_name>` crée une nouvelle branche et y attache immédiatement la **HEAD**.
+
+## `merge` et `rebase`
