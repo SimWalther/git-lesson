@@ -81,7 +81,7 @@ Il est temps de repasser sur les commandes qu'on connaît déjà, en les expliqu
 
 - Le commit est alors créé. C'est un objet qui ne changera pas, une brique certaine à laquelle on pourra revenir.
 
-- Cependant, et bien que je respecte votre opiniâtreté sur le sujet des abréviations dans les titres, nous allons inverser votre modification. (Ben oui, après on va `push` le repo, et les autres ne vont pas pouvoir faire la modif si on la laisse !)
+- Cependant, et bien que je respecte votre opiniâtreté sur le sujet des abréviations dans les titres, nous allons inverser votre modification.
 
 - ***5*** On va revenir au commit qui prédate celui de la modification du titre. Pour l'identifier, il nous faut son "hash". Nous allons donc faire un `git log`.
 
@@ -90,3 +90,8 @@ Il est temps de repasser sur les commandes qu'on connaît déjà, en les expliqu
 - ***6*** Copiez les 4-6 premiers caractères du hash du commit, sortez de `git log` avec `q`, puis exécutez la commande `git revert <hash>` et donnez un message de `commit`.
 
 - ***7*** Pour envoyer les modifications sur le dépôt `github`, il suffit de faire `git push`. En effet, grâce à la manière d'initialiser que nous avons utilisée, les informations sur la "remote" et les branches qui lui sont liées sont enregistrées dans le fichier de config du repository git (*.git/config*). Il n'est donc pas nécessaire de spécifier la "remote" ou la branche.
+
+## Utiliser les branches, merge, etc...
+Pour finir, si vous voulez vous entraîner un max avec les `branches`, je conseille fortement ce site : [lien](https://learngitbranching.js.org/).
+
+## TBC
