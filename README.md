@@ -1,7 +1,7 @@
 # Intro à git
 
 ## Marche à suivre
-- Le document présent est une sorte de mini-cours sur `git` qui essaie de mettre un peu de théorie et un peu de pratique.
+- Le document présent est une sorte de mini-cours sur `git` qui essaie de proposer un peu de théorie et un peu de pratique.
 - Ceux qui n'ont pas le temps seront peut-être intéressés par le fichier "cheatsheet.md", qui contient un tas de commandes fréquentes et, ma foi, fort utiles.
 - Ceux qui ont beaucoup de temps préférerons peut-être le cours OpenClassrooms sur `git` : [lien](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433586-quest-ce-que-versionner-son-code). (Je ne l'ai pas lu mais je leur fais confiance.)
 - Pour finir, si vous voulez vous entraîner un max avec les `branches`, je conseille fortement ce site : [lien](https://learngitbranching.js.org/).
@@ -89,4 +89,4 @@ Il est temps de repasser sur les commandes qu'on connaît déjà, en les expliqu
 
 - ***6*** Copiez les 4-6 premiers caractères du hash du commit, sortez de `git log` avec `q`, puis exécutez la commande `git revert <hash>` et donnez un message de `commit`.
 
-- ***7*** Pour envoyer les modifications sur le dépôt `github`, il suffit de faire `git push`. En effet, les informations sur la "remote" et les branches qui lui sont liées sont enregistrées dans le fichier de config du repository git (.git/config). Il n'est donc pas nécessaire de spécifier la "remote" ou la branche.
+- ***7*** Pour envoyer les modifications sur le dépôt `github`, il suffit de faire `git push`. En effet, grâce à la manière d'initialiser que nous avons utilisée, les informations sur la "remote" et les branches qui lui sont liées sont enregistrées dans le fichier de config du repository git (*.git/config*). Il n'est donc pas nécessaire de spécifier la "remote" ou la branche.
