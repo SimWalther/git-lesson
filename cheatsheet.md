@@ -27,6 +27,8 @@ git push -u origin master
 ## Gérer l'index
 - `git add <file>` permet d'ajouter des fichiers à l'index. On peut en spécifier autant qu'on veut, séparés par des espaces.
 
+- `git add -p` nous donne les modifications une par une et nous permet de les accepter ou pas, pour pouvoir les `commit` individuellement.
+
 - `git reset <file>` permet de retirer un fichier de l'index.
 
 ## Gérer les commits

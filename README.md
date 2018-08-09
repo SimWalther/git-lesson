@@ -61,6 +61,8 @@ Il est temps de repasser sur les commandes qu'on connaît déjà, en les expliqu
 
 - `git add <file>` permet d'ajouter des fichiers à l'index. On peut en spécifier autant qu'on veut, séparés par des espaces.
 
+- `git add -p` nous donne les modifications une par une et nous permet de les accepter ou pas, pour pouvoir les `commit` individuellement.
+
 - `git commit -m "Commit message"` crée un nouveau `commit` avec les fichiers indexés.
     - Un `commit` contient toutes les modifications apportées aux fichiers.
     - On peut revenir à un précédent `commit`, ou comparer nos fichiers modifiés avec un précédent `commit`.
@@ -80,6 +82,7 @@ Il est temps de repasser sur les commandes qu'on connaît déjà, en les expliqu
 - ***4*** Effectuez le `commit` avec `git commit -m "Modification du titre, car ma pédanterie dépasse celle de Luc."`.
 
 - Le commit est alors créé. C'est un objet qui ne changera pas, une brique certaine à laquelle on pourra revenir.
+- Le message de `commit` doit succinctement résumer la modification faite. Nul besoin d'ajouter un nom ou une date puisque ces informations sont automatiquement ajoutées au `commit`.
 
 - Cependant, et bien que je respecte votre opiniâtreté sur le sujet des abréviations dans les titres, nous allons inverser votre modification.
 
@@ -92,6 +95,8 @@ Il est temps de repasser sur les commandes qu'on connaît déjà, en les expliqu
 - ***7*** Pour envoyer les modifications sur le dépôt `github`, il suffit de faire `git push`. En effet, grâce à la manière d'initialiser que nous avons utilisée, les informations sur la "remote" et les branches qui lui sont liées sont enregistrées dans le fichier de config du repository git (*.git/config*). Il n'est donc pas nécessaire de spécifier la "remote" ou la branche.
 
 ## Utiliser les branches, merge, etc...
-Pour finir, si vous voulez vous entraîner un max avec les `branches`, je conseille fortement ce site : [lien](https://learngitbranching.js.org/).
+TODO : Théorie sur les branches.
+
+Pour s'entraîner un max avec les `branches` : [lien](https://learngitbranching.js.org/).
 
 ## TBC
