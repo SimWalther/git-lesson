@@ -31,6 +31,8 @@ git push -u origin master
 
 - `git reset <file>` permet de retirer un fichier de l'index.
 
+- `git rm <file>` supprimer un fichier de l'index et de votre ordinateur.
+
 ## Gérer les commits
 - `git commit -m "Commit message"` crée un nouveau `commit` avec les fichiers indexés.
     - Un `commit` contient toutes les modifications apportées aux fichiers.
@@ -53,5 +55,12 @@ git push -u origin master
 - `git branch <branch_name>` crée une nouvelle branche. Pour aller sur cette branche, il faut y attacher la **HEAD**.
 
 - `git checkout -b <branch_name>` crée une nouvelle branche et y attache immédiatement la **HEAD**.
+
+## Récupérer les modifications distantes
+- `git stash` mettre de côté ce que vous avez modifié avant de récupèrer le code.
+
+- `git pull` récupèrer les modifications. Si vous avez des modifications qui ne sont pas ajoutés à l'index, il vous faudra soit les mettre de côté avec `git stash`, soit les commit.
+
+- `git stash pop` prendre vos modifications misent de côté avec `git stash` et les appliquer. Cela enlève ces modifications de la pile créé par `git stash`.
 
 ## `merge` et `rebase`
